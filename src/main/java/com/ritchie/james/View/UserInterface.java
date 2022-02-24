@@ -148,7 +148,7 @@ public class UserInterface {
     /**
      * Method used to print out error message when there is invalid input.
      */
-    public void printError() {
+    public void printInputError() {
         System.out.println("ERROR INVALID INPUT");;
     }
 

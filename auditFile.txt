@@ -6,3 +6,25 @@ Machine Loading Was Successful
 Attempting to Load Vending Machine File: gihra
 ERROR: Machine Was NOT Loaded.
 Machine Turning Off...
+Machine Turning On...
+Attempting to Load Vending Machine File: input.json
+Machine Loading Was Successful
+Attempting to Load Vending Machine File: rgar
+ERROR: Machine Was NOT Loaded.
+Machine Turning On...
+Attempting to Load Vending Machine File: input.json
+Machine Loading Was Successful
+Attempting to Load Vending Machine File: rgareg
+ERROR: Machine Was NOT Loaded.
+Machine Turning On...
+Attempting to Load Vending Machine File: input.json
+Machine Loading Was Successful
+Attempting to Load Vending Machine File: sgrsg
+ERROR: Machine Was NOT Loaded.
+Machine Turning Off...
+Machine Turning On...
+Attempting to Load Vending Machine File: input.json
+Machine Loading Was Successful
+Attempting to Load Vending Machine File: dgrag
+ERROR: Machine Was NOT Loaded.
+Machine Turning Off...

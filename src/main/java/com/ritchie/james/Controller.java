@@ -158,7 +158,7 @@ public class Controller {
             return indexes;
 
         }catch(Exception e){
-            this.view.printError();
+            this.view.printInputError();
         }
 
         return null;
@@ -240,12 +240,12 @@ public class Controller {
                 this.model.setItems(items);
                 // If dimensions too large
             } else {
+                System.out.println("here");
                 reportWasMachineLoaded(false);
                 return false;
             }
 
         } catch (Exception e) {
-            this.view.printError();
             reportWasMachineLoaded(false);
             return false;
         }
