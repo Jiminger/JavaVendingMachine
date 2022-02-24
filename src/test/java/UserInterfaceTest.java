@@ -111,7 +111,7 @@ public class UserInterfaceTest {
     public void printFourStatePromptTest(){
         testUI.printFourStatePrompt(2.00);
         String result = outContent.toString();
-        assertEquals("\nState: Dispensing Change\nDispensing Change : $ 2.00",result);
+        assertEquals("\nState: Dispensing Change\nDispensing Change : $ 2.00\n",result);
     }
 
 
