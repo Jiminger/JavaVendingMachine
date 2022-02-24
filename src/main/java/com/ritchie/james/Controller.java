@@ -1,5 +1,8 @@
 package com.ritchie.james;
 
+import com.ritchie.james.Model.Item;
+import com.ritchie.james.Model.VendingMachine;
+import com.ritchie.james.View.UserInterface;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
