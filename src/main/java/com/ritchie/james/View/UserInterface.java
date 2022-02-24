@@ -47,7 +47,7 @@ public class UserInterface {
 
     public void printOneStatePrompt(double currentMoney){
         System.out.printf("""
-                State: Accepting Money
+                \nState: Accepting Money
                 Current Money: $ %.2f
                 Enter Dollar Amount, 'Select' to Choose an Item, or 'X' to Cancel Transaction:\s""", currentMoney);
     }
@@ -63,7 +63,7 @@ public class UserInterface {
     }
 
     public void printFourStatePrompt(double change){
-        System.out.printf("\nState: Dispensing Change\nDispensing Change : $ %.2f", change);
+        System.out.printf("\nState: Dispensing Change\nDispensing Change : $ %.2f\n", change);
     }
 
     public void printFiveStatePrompt(){
@@ -75,7 +75,7 @@ public class UserInterface {
     }
 
     public void printMenu(Item[][] items) {
-        System.out.format("%-10s%-30s%-15s%-15s%n", "ID", "Name", "Cost ($)", "Inventory");
+        System.out.format("\n%-10s%-30s%-15s%-15s%n", "ID", "Name", "Cost ($)", "Inventory");
         System.out.println("-----------------------------------------------------------------");
         for (int i = 0; i < items.length; i++) {
             for (int j = 0; j < items[0].length; j++) {
@@ -93,8 +93,8 @@ public class UserInterface {
         }
     }
 
-    public void printError(Exception e) {
-        e.printStackTrace();
+    public void printError() {
+        System.out.println("ERROR INVALID INPUT");;
     }
 
 

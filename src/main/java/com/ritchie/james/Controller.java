@@ -158,7 +158,7 @@ public class Controller {
             return indexes;
 
         }catch(Exception e){
-            this.view.printError(e);
+            this.view.printError();
         }
 
         return null;
@@ -245,7 +245,7 @@ public class Controller {
             }
 
         } catch (Exception e) {
-            this.view.printError(e);
+            this.view.printError();
             reportWasMachineLoaded(false);
             return false;
         }
