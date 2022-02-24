@@ -1,5 +1,8 @@
 package com.ritchie.james.Model;
 
+/**
+ * Item class storing information about the items in the vending machine.
+ */
 public class Item {
 
     private final String name;

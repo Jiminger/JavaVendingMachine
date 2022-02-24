@@ -1,5 +1,6 @@
 package com.ritchie.james;
 
+import com.ritchie.james.Control.Controller;
 import com.ritchie.james.Model.VendingMachine;
 import com.ritchie.james.View.UserInterface;
 
@@ -20,7 +21,6 @@ import com.ritchie.james.View.UserInterface;
  * @author James Ritchie
  * @version 1.0
  * @since 2022-02-20
- *
  */
 
 public class Main {

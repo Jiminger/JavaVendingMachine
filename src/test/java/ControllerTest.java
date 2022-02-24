@@ -1,4 +1,4 @@
-import com.ritchie.james.Controller;
+import com.ritchie.james.Control.Controller;
 import com.ritchie.james.View.UserInterface;
 import com.ritchie.james.Model.VendingMachine;
 import org.junit.Test;

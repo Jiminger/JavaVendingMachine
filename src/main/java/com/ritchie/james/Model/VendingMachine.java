@@ -1,5 +1,17 @@
 package com.ritchie.james.Model;
 
+/**
+ * Vending machine class. Stores items in a 2D Array, also keeps track of the current amount of money in the machine
+ * as well as the state of the machine.
+ * The machine states are as follows:
+ * 0 - Ready
+ * 1 - Accepting Money
+ * 2 - Item Selection
+ * 3 - Dispensing Item
+ * 4 - Dispensing Change
+ * 5 - Loading Machine
+ * 6 - Machine Turning Off.
+ */
 
 public class VendingMachine {
 
@@ -14,7 +26,6 @@ public class VendingMachine {
         this.state = 0;
 
     }
-
 
     public Item[][] getItems() {
         return items;

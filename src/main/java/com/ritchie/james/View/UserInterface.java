@@ -13,6 +13,7 @@ public class UserInterface {
 
     /**
      * Method used to retrieve user input
+     *
      * @return next line from the console
      */
     public String getUserInput() {
@@ -33,12 +34,13 @@ public class UserInterface {
 
     /**
      * Method used to output a message based on whether the input file was loaded successfully.
+     *
      * @param fileLoaded boolean value representing whether file was loaded.
      */
-    public void printFileLoadMessage(boolean fileLoaded){
-        if(fileLoaded){
+    public void printFileLoadMessage(boolean fileLoaded) {
+        if (fileLoaded) {
             System.out.println("File Loaded Successfully.");
-        }else{
+        } else {
             System.out.println("Error Loading File.");
         }
     }
@@ -46,21 +48,21 @@ public class UserInterface {
     /**
      * Method used to print a message indicating there are insufficient funds for an item.
      */
-    public void printNotEnoughMoney(){
+    public void printNotEnoughMoney() {
         System.out.println("Insufficient Funds.");
     }
 
     /**
      * Method used to print out an error message indicating there was invalid input by the user.
      */
-    public void printInvalidInput(){
+    public void printInvalidInput() {
         System.out.println("ERROR: INVALID INPUT");
     }
 
     /**
      * Method used to print a message out indicating that money was added successfully.
      */
-    public void printMoneyAddedMessage(){
+    public void printMoneyAddedMessage() {
         System.out.println("Money Accepted");
     }
 
@@ -73,9 +75,10 @@ public class UserInterface {
 
     /**
      * Method used to print out a prompt for when the machine is in state one (Accepting Money).
+     *
      * @param currentMoney the current amount of money in the machine.
      */
-    public void printOneStatePrompt(double currentMoney){
+    public void printOneStatePrompt(double currentMoney) {
         System.out.printf("""
                 \nState: Accepting Money
                 Current Money: $ %.2f
@@ -84,6 +87,7 @@ public class UserInterface {
 
     /**
      * Method used to print out a prompt for when the machine is in state two (Item Selection).
+     *
      * @param items the array of items to be displayed to the user
      */
     public void printTwoStatePrompt(Item[][] items) {
@@ -94,36 +98,39 @@ public class UserInterface {
 
     /**
      * Method used to print out a prompt for when the machine is in state three (Dispensing Item).
+     *
      * @param item the item being dispensed.
      */
-    public void printThreeStatePrompt(Item item){
+    public void printThreeStatePrompt(Item item) {
         System.out.println("\nState: Dispensing Item\nDispensing : " + item.getName());
     }
 
     /**
      * Method used to print out a prompt for when the machine is in state four (Dispensing Change).
+     *
      * @param change the amount of change being dispensed.
      */
-    public void printFourStatePrompt(double change){
+    public void printFourStatePrompt(double change) {
         System.out.printf("\nState: Dispensing Change\nDispensing Change : $ %.2f\n", change);
     }
 
     /**
      * Method used to print out a prompt for when the machine is in state five (Loading Machine).
      */
-    public void printFiveStatePrompt(){
+    public void printFiveStatePrompt() {
         System.out.println("\nPlease enter the input file name: ");
     }
 
     /**
      * Method used to print out a prompt for when the machine is in state six (Shutting Down).
      */
-    public void printSixStatePrompt(){
+    public void printSixStatePrompt() {
         System.out.println("\nMachine Shutting Down...");
     }
 
     /**
      * Method used to print out the menu of available items
+     *
      * @param items the array of items to print out.
      */
     public void printMenu(Item[][] items) {
@@ -149,7 +156,8 @@ public class UserInterface {
      * Method used to print out error message when there is invalid input.
      */
     public void printInputError() {
-        System.out.println("ERROR INVALID INPUT");;
+        System.out.println("ERROR INVALID INPUT");
+        ;
     }
 
 }
