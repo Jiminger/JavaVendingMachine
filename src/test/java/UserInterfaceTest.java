@@ -1,5 +1,5 @@
-import com.ritchie.james.Item;
-import com.ritchie.james.UserInterface;
+import com.ritchie.james.Model.Item;
+import com.ritchie.james.View.UserInterface;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
