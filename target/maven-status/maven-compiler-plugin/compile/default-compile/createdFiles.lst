@@ -1,6 +1,5 @@
 com\ritchie\james\Main.class
+com\ritchie\james\Control\Controller.class
 com\ritchie\james\Model\Item.class
 com\ritchie\james\View\UserInterface.class
-com\ritchie\james\Model\AuditWriter.class
 com\ritchie\james\Model\VendingMachine.class
-com\ritchie\james\Controller.class
