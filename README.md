@@ -34,7 +34,6 @@ Input file constraints:
 
 Screenshots
 -------------------------------
-<p align="center">
 ```Welcome Message```
 
 ![welcome](images/welcome.jpg)
@@ -54,5 +53,3 @@ Screenshots
 ```Audit File```
 
 ![audit_file](images/audit_file.jpg)
-  
-  </p>
