@@ -48,11 +48,13 @@ public class Controller {
      * Method used to run the controller.
      */
     public void run() {
+
         reportMachineTurningOn();
         this.view.printWelcomeMessage();
         this.loadMachine("input.json");
         boolean running = true;
         String input = "";
+
         while (running) {
 
             while (this.model.getState() == 0) {

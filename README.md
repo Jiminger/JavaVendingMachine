@@ -34,3 +34,22 @@ Input file constraints:
 
 Screenshots
 -------------------------------
+```Welcome Message```
+
+![welcome](images/welcome.jpg)
+
+```Menu```
+
+![menu](images/menu.jpg)
+
+```Accepting Money```
+
+![menu](images/enter_money.jpg)
+
+```Item Select / Dispensing Item / Dispensing Change```
+
+![select_and_change](images/item_select_and_change.jpg)
+
+```Audit File```
+
+![audit_file](images/audit_file.jpg)
