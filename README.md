@@ -17,7 +17,7 @@ Instructions to run the program:
 --------------------------------
 
 
-1. Clone the repo by typing the following command in your terminal:
+1. Clone the repo by typing the following command in the terminal:
 ```
 git clone git@github.com:Jiminger/JavaVendingMachine.git
 ```
