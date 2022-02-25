@@ -186,7 +186,7 @@ public class Controller {
      * @return boolean value describing whether the machine has enough money in it or not.
      */
     public boolean enoughMoneyToBuy(int[] indexes) {
-        return this.model.getCurrentMoney() > this.model.getItems()[indexes[0]][indexes[1]].getPrice();
+        return this.model.getCurrentMoney() >= this.model.getItems()[indexes[0]][indexes[1]].getPrice();
     }
 
     /**
