@@ -1,18 +1,28 @@
-# VendingMachine
-<p>
+VendingMachine
+=================
 This is a command line Java implementation of a vending machine using an MVC approach.
-</p>
-<p>The machine is loaded from a JSON input file. The user is then greeted by a welcome message
+
+The machine is loaded from a JSON input file. The user is then greeted by a welcome message
 and given various options to interact with the machine. The machine also logs all major events 
-during transaction and loading states.</p>
-<h6>Requirements to run the program:</h6>
+during transaction and loading states.
+
+Requirements to run the program:
+--------------------------------
 <ul>
 <li>Java 17.0.2</li>
 <li>Maven 3.8.4</li>
 </ul>
-<h6>Instructions to run the program:</h6>
-<ol>
-<li>Clone the repo:
-<ul>git clone git@github.com:Jiminger/JavaVendingMachine.git </ul></li>
-<li>Run the program:
-<ul>mvn clean compile exec:java</ul></li></ol>
+
+Instructions to run the program:
+--------------------------------
+
+
+1. Clone the repo by typing the following command in your terminal:
+```
+git clone git@github.com:Jiminger/JavaVendingMachine.git
+```
+
+2. Run the program by navigating in to the JavaVendingMachine folder and entering the following command in the terminal:
+```
+mvn clean compile exec:java
+```
