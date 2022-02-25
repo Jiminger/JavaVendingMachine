@@ -16,7 +16,6 @@ Requirements to run the program:
 Instructions to run the program:
 --------------------------------
 
-
 1. Clone the repo by typing the following command in your terminal:
 ```
 git clone git@github.com:Jiminger/JavaVendingMachine.git
@@ -26,3 +25,12 @@ git clone git@github.com:Jiminger/JavaVendingMachine.git
 ```
 mvn clean compile exec:java
 ```
+
+Input file constraints:
+-------------------------------
+1. The file must be in the same format as the original input file.
+2. **The amount of rows specified by the input file can not exceed 26.**
+
+
+Screenshots
+-------------------------------
