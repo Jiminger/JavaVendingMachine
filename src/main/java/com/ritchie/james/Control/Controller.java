@@ -277,7 +277,7 @@ public class Controller {
             int rows = (int) (long) config.get("rows");
             int columns = Integer.parseInt((String) config.get("columns"));
 
-            if (rows < 26 && rows > 0 && columns > 0) {
+            if (rows <= 26 && rows > 0 && columns > 0) {
                 Item[][] items = new Item[rows][columns];
 
                 //Stack used to help load the vending machine
