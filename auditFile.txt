@@ -1,7 +1,0 @@
-Machine Turning On...
-Attempting to Load Vending Machine File: input.json
-Machine Loading Was Successful
-Money Added to the Machine: $ 3.00
-Baby Ruth Purchased for: $ 2.50  (Remaining Stock: 9)
-Dispensed Change: 0.50
-Machine Turning Off...

@@ -377,7 +377,7 @@ public class Controller {
      * @param change the amount of change dispensed.
      */
     public void reportChangeDispensed(double change) {
-        writeToAuditFile("Dispensed Change: %.2f".formatted(change));
+        writeToAuditFile("Dispensed Change: $ %.2f".formatted(change));
     }
 
     /**
