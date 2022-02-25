@@ -9,8 +9,8 @@ during transaction and loading states.
 Requirements to run the program:
 --------------------------------
 <ul>
-<li>Java v17.0.2</li>
-<li>Maven v3.8.4</li>
+<li>Java 17.0.2</li>
+<li>Maven 3.8.4</li>
 </ul>
 
 Instructions to run the program:
