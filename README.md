@@ -21,7 +21,7 @@ Instructions to run the program:
 git clone git@github.com:Jiminger/JavaVendingMachine.git
 ```
 
-2. Run the program by navigating in to the cloned JavaVendingMachine folder and entering the following command in the terminal:
+2. Run the program by navigating in to the JavaVendingMachine directory and entering the following command in the terminal:
 ```
 mvn clean compile exec:java
 ```
