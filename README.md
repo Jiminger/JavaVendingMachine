@@ -1,4 +1,4 @@
-VendingMachine
+Vending Machine
 =================
 This is a command line Java implementation of a vending machine using an MVC approach.
 
