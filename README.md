@@ -9,8 +9,8 @@ during transaction and loading states.
 Requirements to run the program:
 --------------------------------
 <ul>
-<li>Java 17.0.2</li>
-<li>Maven 3.8.4</li>
+<li>Java v17.0.2</li>
+<li>Maven v3.8.4</li>
 </ul>
 
 Instructions to run the program:
@@ -22,7 +22,7 @@ Instructions to run the program:
 git clone git@github.com:Jiminger/JavaVendingMachine.git
 ```
 
-2. Run the program by navigating in to the JavaVendingMachine folder and entering the following command in the terminal:
+2. Run the program by navigating in to the cloned JavaVendingMachine folder and entering the following command in the terminal:
 ```
 mvn clean compile exec:java
 ```
