@@ -182,7 +182,7 @@ public class Controller {
     }
 
     /**
-     * Method used to determine if the machine currently in it to satisfy the transaction.
+     * Method used to determine if the machine currently has enough money in it to satisfy the transaction.
      *
      * @param indexes int[2] symbolizing the location of the item in the model indexes[0] = row, indexes[1] = column.
      * @return boolean value describing whether the machine has enough money in it or not.
@@ -192,7 +192,7 @@ public class Controller {
     }
 
     /**
-     * Method used to change the user selection input into an ID (Example: "A9" -> [0,9]
+     * Method used to change the user selection input into an ID (Example: "A9" -> [0,9])
      *
      * @param input user input to be converted to an item ID
      * @return int[2] symbolizing the location of the item in the model int[0] = row, int[1] = column.
