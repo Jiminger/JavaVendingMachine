@@ -27,7 +27,7 @@ public class UserInterface {
         System.out.println("""
                 ******************************************
                 *                                        *
-                *  Welcome to the Java Vending machine!  *
+                *  Welcome to the Java Vending Machine!  *
                 *                                        *
                 ******************************************""");
     }

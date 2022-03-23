@@ -1,0 +1,3 @@
+Machine Turning On...
+Attempting to Load Vending Machine File: input.json
+Machine Loading Was Successful
